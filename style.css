@@ -1,0 +1,79 @@
+body {
+    background-color: lightgrey;
+}
+
+.container-title{
+    color: teal;
+}
+
+.container-subtitle{
+    color: black;
+    font-size: 15px;
+}
+
+.chart-title{
+    color: teal;
+    font-size: 10px;
+    text-align: center;
+}
+
+.panel-right {
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px;
+    height: 505px;
+}
+
+.panel-left {
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.panel-comparison {
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px;
+    height: 600px;
+}
+
+#float-right {
+    float: right;
+}
+
+#float-left {
+    float: left;
+}
+
+.panel-data {
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+@media (max-width: 1200px) {
+    
+    .panel-right {
+        background-color: white;
+        margin-top: 20px;
+        padding: 10px;
+        height: 900px;
+    } 
+
+    .panel-comparison {
+        background-color: white;
+        margin-top: 20px;
+        padding: 10px;    
+        height: 1000px;
+    }
+
+    #float-right {
+        float: none;
+    }
+    
+    #float-left {
+        float: none;
+    }
+ 
+
+}
